@@ -18,11 +18,8 @@ $ python3 main.py --help
 All command line option:
 
 ```
-usage: transfer_learning.py [options]
-
-option:
   -h, --help          show this help message and exit
-  --batch_size        Batch size (default=16)
+  --batch_size        batch size (default=16)
   --dataset_path      dataset path
   --nz                number of dimensions for input noise
   --epochs            number of training epochs
